@@ -1,5 +1,9 @@
 {
  "homepage": "https://ErwymVills.github.io/Awesome-Bill-Counter"
+ "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+}
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
